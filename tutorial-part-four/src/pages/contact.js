@@ -5,7 +5,7 @@ export default function Contact() {
     <Layout>
         <h1>Contact Us</h1>
         <div>
-            <form method="post" action="/">
+            <form name="contact" method="POST" data-netlify="true">
                 <label>
                     Name
                     <input type="text" name="name" id="name" />
