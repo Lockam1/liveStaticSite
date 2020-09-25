@@ -32,19 +32,19 @@ export default function Contact() {
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="field" >
                     <label>First Name</label>
-                    <input type="text" name="firstName" id="firstName" required />
+                    <input type="text" name="Name" id="Name" required />
                 </div>
                 <div className="field">
-                    <label>Last Name</label>
-                    <input type="text" name="lastName" id="lastName"  required />
+                    <label>Email</label>
+                    <input type="text" name="Email" id="Email"  required />
                 </div>
                 <div className="field">
-                    <label>Email Address</label>
-                    <input type="email" name="portfolioemail" id="email"   />
+                    <label>Role</label>
+                    <input type="text" name="Role" id="Role"   />
                 </div>
                 <div className="field">
                     <label>Message</label>
-                    <textarea type="message" name="portfoliomessage" id="message"/>
+                    <textarea type="message" name="Message" id="Message"/>
                 </div>
                     <button type="submit">Send</button>
                 </form>
