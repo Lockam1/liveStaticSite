@@ -5,7 +5,7 @@ export default function Contact() {
     <Layout>
         <h1>Contact Us</h1>
         <div>
-            <form name="send-place" action="/send-place" method="POST" enctype="multipart/form-data">
+            <form form-name="contact" name="contact" method="POST" data-netlify="true">
                 <p>
                     <label>Your Name: <input type="text" name="name" /></label>   
                 </p>
@@ -15,7 +15,7 @@ export default function Contact() {
                 <p>
                     <label>Your Role: <select name="role[]" multiple>
                     <option value="leader">Leader</option>
-                    <option value="follower">Follower</option>s
+                    <option value="follower">Follower</option>
                     </select></label>
                 </p>
                 <p>
