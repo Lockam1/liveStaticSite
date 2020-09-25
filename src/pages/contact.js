@@ -5,7 +5,7 @@ export default function Contact() {
     <Layout>
         <h1>Contact Us</h1>
         <div>
-            <input type="hidden" name="form-name" value="name-of-form" />
+            {/* <input type="hidden" name="form-name" value="name-of-form" />
             <form form-name="contact" name="contact" method="POST" data-netlify="true">
                 
                 <p>
@@ -27,7 +27,24 @@ export default function Contact() {
                     <button type="submit">Send</button>
                 </p>
                
-            </form>
+            </form> */}
+                <form method="POST"  name="contactform" data-netlify="true" action="/contact/"  data-netlify-honeypot="bot-field"  >
+                <input type="hidden" name="form-name" value="contact" />
+                <div className="field" >
+                    <label>First Name</label>
+                    <input type="text" name="firstName" id="firstName" required />
+                </div>
+                <div className="field">
+                    <label>Last Name</label>
+                    <input type="text" name="lastName" id="lastName"  required />
+                </div>
+                
+                <div className="field">
+                    <label>Message</label>
+                    <textarea type="message" name="portfoliomessage" id="message"/>
+                </div>
+                    <button type="submit">Send</button>
+                </form>
         </div>
     </Layout>
   )
