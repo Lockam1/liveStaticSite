@@ -5,7 +5,7 @@ export default function Contact() {
     <Layout>
         <h1>Contact Us</h1>
         <div>
-        <form name="send-place" action="/send-place" method="POST" enctype="multipart/form-data">
+            <form name="send-place" action="/send-place" method="POST" enctype="multipart/form-data">
                 <p>
                     <label>Your Name: <input type="text" name="name" /></label>   
                 </p>
@@ -15,7 +15,7 @@ export default function Contact() {
                 <p>
                     <label>Your Role: <select name="role[]" multiple>
                     <option value="leader">Leader</option>
-                    <option value="follower">Follower</option>
+                    <option value="follower">Follower</option>s
                     </select></label>
                 </p>
                 <p>
