@@ -5,7 +5,9 @@ export default function Contact() {
     <Layout>
         <h1>Contact Us</h1>
         <div>
+            <input type="hidden" name="form-name" value="name-of-form" />
             <form form-name="contact" name="contact" method="POST" data-netlify="true">
+                
                 <p>
                     <label>Your Name: <input type="text" name="name" /></label>   
                 </p>
@@ -24,7 +26,7 @@ export default function Contact() {
                 <p>
                     <button type="submit">Send</button>
                 </p>
-                <input type="hidden" name="contact" value="contact" />
+               
             </form>
         </div>
     </Layout>
