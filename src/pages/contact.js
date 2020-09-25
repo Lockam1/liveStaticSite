@@ -28,7 +28,7 @@ export default function Contact() {
                 </p>
                
             </form> */}
-                <form method="POST"  name="contactform" data-netlify="true" action="/contact/"  data-netlify-honeypot="bot-field" >
+                <form method="POST"  name="contactform" data-netlify="true" action="/contact" >
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="field" >
                     <label>First Name</label>
