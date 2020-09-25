@@ -29,7 +29,7 @@ export default function Contact() {
                
             </form> */}
                 <form method="POST"  name="contactform" data-netlify="true" action="/contact" >
-                <input type="hidden" name="form-name" value="contact" />
+                {/* <input type="hidden" name="form-name" value="contact" /> */}
                 <div className="field" >
                     <label>First Name</label>
                     <input type="text" name="Name" id="Name" required />
